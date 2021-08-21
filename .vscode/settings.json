@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "pstg.h": "c",
+        "mem.h": "c",
+        "tool.h": "c"
+    },
+    "C_Cpp.dimInactiveRegions": false
+}

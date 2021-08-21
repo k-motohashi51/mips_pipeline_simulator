@@ -1,0 +1,61 @@
+.
+├── bin
+│   └── main
+├── inc
+│   ├── alu.h
+│   ├── converter.h
+│   ├── ctrl.h
+│   ├── debug.h
+│   ├── def.h
+│   ├── error.h
+│   ├── mem.h
+│   ├── pReg.h
+│   ├── pStg.h
+│   ├── reg.h
+│   └── tool.h
+├── Makefile
+├── obj
+│   ├── adder.o
+│   ├── aluCtrl.o
+│   ├── alu.o
+│   ├── and.o
+│   ├── converter.o
+│   ├── debug.o
+│   ├── error.o
+│   ├── extender.o
+│   ├── mainCtrl.o
+│   ├── main.o
+│   ├── mem.o
+│   ├── mux.o
+│   ├── reg.o
+│   ├── shifter.o
+│   └── stg.o
+├── src
+│   ├── cpu
+│   │   ├── alu
+│   │   │   └── alu.c
+│   │   ├── ctrl
+│   │   │   ├── aluCtrl.c
+│   │   │   └── mainCtrl.c
+│   │   └── reg
+│   │       └── reg.c
+│   ├── etc
+│   │   ├── converter.c
+│   │   ├── debug.c
+│   │   └── error.c
+│   ├── main.c
+│   ├── mem
+│   │   └── mem.c
+│   ├── pipeline
+│   │   └── stg.c
+│   └── tool
+│       ├── adder.c
+│       ├── and.c
+│       ├── extender.c
+│       ├── mux.c
+│       └── shifter.c
+├── tree.txt
+└── .vscode
+    └── settings.json
+
+13 directories, 45 files
