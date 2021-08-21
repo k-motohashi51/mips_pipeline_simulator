@@ -1,0 +1,2 @@
+# mips_pipeline_simulator
+授業で作った簡易的なMIPSのパイプラインシミュレータ
